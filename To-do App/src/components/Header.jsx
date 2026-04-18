@@ -1,9 +1,7 @@
-function Header() {
+export default function Header() {
   return (
-    <div>
-        <h1>To do list</h1>
-    </div>
-  )
+    <h1 className="text-4xl font-bold text-center text-purple-400 mb-8 drop-shadow-lg">
+      Todo App
+    </h1>
+  );
 }
-
-export default Header
